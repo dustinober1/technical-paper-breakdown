@@ -192,8 +192,12 @@ def main():
                                 llm,
                                 chain_type="map_reduce",
                                 map_prompt=map_prompt,
+<<<<<<< HEAD
                                 combine_prompt=reduce_prompt,
                                 token_max=3000 # Adjust based on model context
+=======
+                                combine_prompt=reduce_prompt
+>>>>>>> arxiv-distiller-app-11939439412204033918
                             )
                             distillation = chain.run(chunks)
                         else:
