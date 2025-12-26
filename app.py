@@ -1,6 +1,6 @@
 import streamlit as st
 import arxiv
-import fitz  # pymupdf
+import fitz  
 import os
 import re
 import tempfile
